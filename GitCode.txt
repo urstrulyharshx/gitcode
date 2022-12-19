@@ -1,3 +1,30 @@
+Your Identity "the first thing you should do when you install Git is to set your user name and email address"
+$ git config --global user.name "username"
+$ git config --global user.email /anuggaurav@gmail.com/
+
+Initializing a Repository in an Existing Directory
+$ git init
+
 To clone any repository in local disk 
-code : git clone repository link 
-example : git clone https://github.com/Anujgaurav/Quick_Guide_Github.git
+$ git clone /repository link/
+
+Checking the Status of Your Files
+$ git status
+
+In order to begin tracking a new file, you use the command git add
+$ git add /filename/
+
+Adds a change in the working directory to the staging area
+$ git add .
+
+Captures a snapshot of the project's currently staged changes
+$ git commit -m "commit medssage"
+
+While the git status output is pretty comprehensive, it’s also quite wordy. Git also has a short status flag so you can see your changes in a more compact way
+$ git status -s
+
+Viewing the Commit History
+$ git log
+
+
+
