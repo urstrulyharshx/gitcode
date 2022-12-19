@@ -20,6 +20,13 @@ $ git add .
 Captures a snapshot of the project's currently staged changes
 $ git commit -m "commit medssage"
 
+Used to upload local repository content to a remote repository
+$ git push
+
+Switch Branch using git checkout
+$ git checkout <existing_branch>
+$ git checkout -b <new_branch>
+
 While the git status output is pretty comprehensive, it’s also quite wordy. Git also has a short status flag so you can see your changes in a more compact way
 $ git status -s
 
