@@ -1,0 +1,3 @@
+To clone any repository in local disk 
+git clone repository link 
+  example : git clone 
