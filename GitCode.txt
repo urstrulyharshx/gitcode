@@ -1,3 +1,5 @@
+
+
 Your Identity "the first thing you should do when you install Git is to set your user name and email address"
 $ git config --global user.name "username"
 $ git config --global user.email /anuggaurav@gmail.com/
@@ -38,6 +40,9 @@ $ git remote set-url "repository link"
 
 List your existing remotes in order to get the name of the remote you want to change.
 $ git remote -v
+
+To see the difference between local and github repo..
+$ git diff
 
 
 
